@@ -33,7 +33,7 @@ body {
 h1, h2, h3, h4, h5 {
   color: #fff;
   font-weight: 200; 
-  font-family: "JetBrainsMono-Regular" }
+  font-family: "JetBrainsMono-Thin" }
 
 h2 {
   font-size: 25px; }
@@ -49,7 +49,7 @@ a {
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
   padding: 15px 20px !important; 
-  font-family: "JetBrainsMono-Regular" }
+  font-family: "JetBrainsMono-Thin" }
 
 .site-navbar {
   border: none;
@@ -627,8 +627,8 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 
   @font-face {
-    font-family:"JetBrainsMono-Regular";
-    src:url("/font/JetBrainsMono-Regular.woff2") format("woff2");
+    font-family:"JetBrainsMono-Thin";
+    src:url("/font/JetBrainsMono-Thin.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
