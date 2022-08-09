@@ -32,7 +32,8 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: #fff;
-  font-weight: 200; }
+  font-weight: 200; 
+  font-family: "JetBrainsMono-Regular" }
 
 h2 {
   font-size: 25px; }
@@ -48,7 +49,7 @@ a {
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
   padding: 15px 20px !important; 
-  font-family: "pingfangsc" }
+  font-family: "JetBrainsMono-Regular" }
 
 .site-navbar {
   border: none;
@@ -160,7 +161,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.7); }
   .site-hero h1 {
     font-weight: 200;
     margin-bottom: 20px;
@@ -624,3 +625,11 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+  @font-face {
+    font-family:"JetBrainsMono-Regular";
+    src:url("/font/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
