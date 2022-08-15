@@ -1,47 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
+
 <head>
-	<title>BTWOA</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="shortcut icon" href="https://btwoa.com/favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://btwoa.com/favicon.ico">
+	<title>Home | btwoa</title>
+	<link rel="apple-touch-icon-precomposed" href="https://btwoa.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-235222810-2"></script>
+	<script>
+		function a() {
+			dataLayer.push(arguments)
+		}
+		window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-235222810-2");
+	</script>
 </head>
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
-	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
-
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
-					<li class="nav-item"><a class="nav-link" href="https://blog.btwoa.com">BLOG</a></li>
-					<li class="nav-item"><a class="nav-link" href="https://gallery.btwoa.com">GALLERY</a></li>
-					<li class="nav-item"><a class="nav-link" href="https://game.btwoa.com">GAME</a></li>
-				</ul>
-			</div>
-		</div>
+<body>
+	<nav>
+		<a href="https://btwoa.com" target="_blank" class="active">HOME</a>
+		<a class="clip"></a>
+		<a href="https://gallery.btwoa.com/" target="_blank">GALLERY</a>
+		<a class="clip"></a>
+		<a href="https://game.btwoa.com/" target="_blank">GAME</a>
+		<a class="clip"></a>
+		<a href="https://music.btwoa.com/" target="_blank">MUSIC</a>
+		<a class="clip"></a>
+		<a href="https://monitor.btwoa.com/" target="_blank">MONITOR</a>
 	</nav>
 
-	<section class="site-hero" style="background-image: url(img/4.png);" id="section-home" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row intro-text align-items-center justify-content-center">
-				<div class="col-md-10 text-center pt-5">
+	<body onContextMenu="alert('BAZINGA'); return false"
+		NOOP="if (window.event != null && window.event.button == 2) alert ('Thanks');">
+		<div class="background">
+			<canvas id="startrack"></canvas>
+			<div class="cover"></div>
+		</div>
+		<div class="main">
+			<div class="ch intro">
+				<div class="container">
+					<div class="hello">
+						<h1 id="slogan">......</h1>
+						<h2>
+							<div class="circle"> <span></span> <span></span>
+								<span></span>
+							</div>btwoa
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="find ch">
+				<div class="container links">
+				<h2 class="chtitle"><span>联络</span>途径</h2>
 
-					<h1 class="site-heading site-animate">Hello <strong class="d-block">I'm btwoa</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">There's nothing here</strong>
+					<div class="clear">
+						
+						<a href="https://github.com/btwoa" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#dbbdfd"></div>
+								<div class="inner"> <i class="fa-brands fa-github"></i>
+									<span>Github</span>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://twitter.com/ba2in9a?t=X21-kXKYXIApD8rCSGky5A&s=09" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#dbbdfd"></div>
+								<div class="inner"> <i class="fa-brands fa-twitter"></i>
+									<span>Twitter</span> </div>
+							</div>
+						</a>
+
+						<a href="https://t.me/btwoa" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#dbbdfd"></div>
+								<div class="inner"> <i class="fa-brands fa-telegram"></i>
+									<span>Telegram</span>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://btwoa.com/weixin.jpg" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#dbbdfd"></div>
+								<div class="inner"> <i class="fa-brands fa-weixin"></i>
+									<span>Weixin</span>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://btwoa.com/qq.png" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#dbbdfd"></div>
+								<div class="inner"> <i class="fa-brands fa-qq"></i>
+									<span>QQ</span>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="gate ch">
+				<div class="container links">
+					<h2 class="chtitle"><span>友情</span>链接</h2>
+
+					<!-- 友链 -->
+					<div class="clear"> 
+						<a href="https://www.yuque.com/lazyhat_blog" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/lazyhat.png">
+								</div>
+								<div class="inner">
+									<h5>Lazyhat</h5>
+									<p>一个菜鸡，学长带带我</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://xdym11235.com" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/xc1ym.png">
+								</div>
+								<div class="inner">
+									<h5>Xc1Ym</h5>
+									<p>风起于青萍之末</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://ishya.top" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/uki.jpg">
+								</div>
+								<div class="inner">
+									<h5>UkiHG</h5>
+									<p>散落在世界一角的故事</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://back2me.cn" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/liuli.png">
+								</div>
+								<div class="inner">
+									<h5>liuli</h5>
+									<p>less is more</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.dbkuaizi.com" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/dbkuaizi.jpg">
+								</div>
+								<div class="inner">
+									<h5>两双筷子</h5>
+									<p>书不白看 题不白刷</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://blog.eurkon.com" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/eurkon.jpg">
+								</div>
+								<div class="inner">
+									<h5>Eurkon</h5>
+									<p>不只是代码的搬运工</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://mao.nu" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/maonu.jpg">
+								</div>
+								<div class="inner">
+									<h5>猫奴</h5>
+									<p>猫奴日记</p>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.7gugu.com" target="_blank">
+							<div class="item">
+								<div class="avatar">
+									<img src="https://btwoa.com/author/7gugu.jpg">
+								</div>
+								<div class="inner">
+									<h5>7gugu</h5>
+									<p>一只鸽子的Code Space</p>
+								</div>
+							</div>
+						</a>
+					</div>
 
 				</div>
 			</div>
 		</div>
-	</section>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    </body>
+		</div>
+
+		<div class="footer ch">
+			<div class="container">
+				<p>THERE'S NOTHING HERE</p>
+			</div>
+		</div>
+		</div>
+		<script src="js/page.js"></script>
+		<script type="text/javascript" src="js/stats.js" charset="UTF-8"></script>
+		<script src="https://kit.fontawesome.com/52248b46d9.js" crossorigin="anonymous"></script>
+
+	</body>
+
 </html>
