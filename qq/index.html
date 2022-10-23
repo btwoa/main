@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="z-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ovo.btwoa.com/img/ovo/qico.png" type="image/x-icon">
+    <title>QQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #ededed;
+        }
+        
+        .card {
+            width: fit-content;
+            margin: 20vh auto 0;
+            padding: 1rem;
+            overflow: hidden;
+            transition: 0.5s;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .top {
+            display: flex;
+        }
+        
+        .logo {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .logo img {
+            border-radius: 10px;
+            width: 100%;
+        }
+        
+        .info {
+            text-align: left;
+            font-size: 1.2rem;
+            padding: 10px
+        }
+        
+        .info>div img {
+            height: 1rem;
+        }
+        
+        .text,
+        .info>span {
+            font-size: 14px;
+            font-size: 15px;
+            color: #888;
+        }
+        
+        .QRcode {
+            margin-top: 1rem;
+            height: 350px;
+            width: 350px;
+        }
+        
+        .QRcode img {
+            width: 100%;
+        }
+        
+        @media (max-width:479px) {
+            .QRcode {
+                height: auto;
+                width: 100%;
+            }
+            .card {
+                margin-top: 13vh;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="top">
+            <div class="logo">
+                <img src="https://ovo.btwoa.com/img/ovo/lang.jpg" alt="头像">
+            </div>
+            <div class="info">
+                <div>
+                    <span>李曜</span>
+                    <img src="https://ovo.btwoa.com/img/ovo/man.webp"><br>
+                </div>
+                <span>中国</span>
+            </div>
+        </div>
+
+        <div class="QRcode">
+            <img src="https://ovo.btwoa.com/img/ovo/qq.jpg" alt="二维码">
+        </div>
+        <p class="text">扫一扫二维码，加我QQ</p>
+    </div>
+</body>
+
+</html>
